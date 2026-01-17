@@ -1,1 +1,2 @@
- print(f'Phone numbers : {data["phone"]}')
+
+    if todos:
