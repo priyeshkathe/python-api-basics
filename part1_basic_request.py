@@ -1,7 +1,6 @@
 """
 Part 1: Basic GET Request
 =========================
-Difficulty: Beginner
 
 Learn: How to make a simple GET request and view the response.
 
@@ -11,7 +10,7 @@ We'll use JSONPlaceholder - a free fake API for testing.
 import requests
 
 # Step 1: Define the API URL
-url = "https://jsonplaceholder.typicode.com/posts/1"
+url = "https://jsonplaceholder.typicode.com/posts/5"
 
 # Step 2: Make a GET request
 response = requests.get(url)
